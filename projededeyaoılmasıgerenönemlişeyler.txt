@@ -1,0 +1,160 @@
+İş Süreçleri Otomasyon Platformu (BPM – Business Process Management) için “dokümantasyon özelliği” sadece kullanıcı kılavuzu yazmak değildir; sistemin **süreçleri, kuralları, rollerini ve teknik yapısını kayıt altına alan canlı bir bilgi katmanı** gibi düşünülür. Akademik olarak da güçlü bir parçadır.
+
+Aşağıda böyle bir sistemde olması beklenen dokümantasyon özelliklerini net şekilde listeledim:
+
+---
+
+## 1) Süreç (Workflow) Dokümantasyonu
+
+Her iş akışı sistem içinde otomatik olarak belgelenir.
+
+**İçerik:**
+
+* Süreç adı (örn: “İzin Talep Süreci”)
+* Süreç adımları (step-by-step)
+* Her adımın sorumlusu (rol bazlı)
+* Koşullar (if/else kuralları)
+* Başlangıç ve bitiş noktası
+
+**Örnek:**
+
+> Çalışan → İzin Talebi oluşturur → Yönetici onaylar → HR kaydeder
+
+**Ek özellik:**
+
+* Görsel akış diyagramı (BPMN benzeri)
+
+---
+
+## 2) Otomatik Süreç Haritalama (Process Mapping)
+
+Sistem, oluşturulan workflow’u otomatik diyagrama çevirir.
+
+**Özellikler:**
+
+* Drag & drop tasarlanan süreç → otomatik diagram
+* Adımlar arası bağlantılar
+* Karar noktalarının gösterimi
+
+---
+
+## 3) Versiyonlama (Process Versioning)
+
+Süreçler zamanla değişebilir, bu yüzden sistem bunu kaydeder.
+
+**Özellikler:**
+
+* v1, v2, v3 süreç versiyonları
+* “Kim değiştirdi?”
+* “Ne zaman değişti?”
+* Eski versiyonlara geri dönüş
+
+**Akademik değer:** Çok önemli → kurumsal sistem mantığını gösterir.
+
+---
+
+## 4) Rol ve Yetki Dokümantasyonu
+
+Her adımda kim ne yapabilir açıkça tanımlanır.
+
+**İçerik:**
+
+* Roller (Çalışan, Yönetici, HR, Admin)
+* Yetkiler (oluşturma, onaylama, görüntüleme)
+* Yetki matrisi
+
+---
+
+## 5) İş Kuralı (Business Rules) Dokümantasyonu
+
+Süreçleri yöneten kurallar kayıt altındadır.
+
+**Örnek:**
+
+* “3 günden uzun izinlerde müdür onayı gerekir”
+* “Bütçe 10.000 TL üstüyse CFO onayı zorunlu”
+
+**Özellik:**
+
+* Kural editörü (if-else builder)
+* Kural açıklaması (human-readable)
+
+---
+
+## 6) Log ve Süreç Geçmişi Dokümantasyonu
+
+Her işlem kayıt altına alınır.
+
+**İçerik:**
+
+* Kim ne yaptı?
+* Ne zaman yaptı?
+* Hangi adımda işlem yapıldı?
+* Süreç kaç günde tamamlandı?
+
+---
+
+## 7) Otomatik Kullanıcı Kılavuzu (Self-Generating Docs)
+
+Sistem, kendi ekranlarını açıklayan doküman üretir.
+
+**Özellikler:**
+
+* Form açıklamaları otomatik oluşturulur
+* API endpoint açıklamaları
+* UI açıklamaları
+* Tooltip → dokümana dönüşür
+
+---
+
+## 8) API Dokümantasyonu
+
+Eğer backend varsa:
+
+* Endpoint listesi
+* Request/response yapısı
+* Swagger / OpenAPI desteği
+* Örnek istekler
+
+---
+
+## 9) Süreç Performans Raporları (Dokümantasyonun Analitik Kısmı)
+
+Dokümantasyon sadece metin değil analiz içerir.
+
+**Örnek:**
+
+* Ortalama onay süresi
+* En çok geciken adım
+* Bottleneck tespiti
+* Süreç verimliliği
+
+---
+
+## 10) PDF / Export Özelliği
+
+Tüm süreç dokümantasyonu dışa aktarılabilir:
+
+* PDF rapor
+* Excel süreç listesi
+* BPMN diagram export
+
+---
+
+## Akademik olarak “etkileyici” yapan şey
+
+Eğer bunu bir proje olarak yaparsan şu 3 şey seni öne çıkarır:
+
+* Süreçleri görselleştirmen (BPMN benzeri)
+* Versiyonlama eklemen
+* Sistem içi otomatik dokümantasyon üretmen
+
+---
+
+İstersen sana bunun:
+
+* veritabanı şemasını
+* ekran tasarımını
+* ya da “hocaya sunum yapılacak proje anlatım metnini”
+
+hazırlayabilirim.
